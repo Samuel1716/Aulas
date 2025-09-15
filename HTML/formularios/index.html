@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Trabalhando com formulários</h1>
+    <p>Formulário simples</p>
+
+    <form action="">
+        <p>
+            <label
+                for="inome">Nome:</label><!--label é obrigatorio para todo input ou formulario e serve como etiqueta-->
+            <input type="text" name="nome" id="inome"><!--type, Tipo do campo-->
+        </p>
+        <p>
+            <label for="isobrenome">sobrenome</label>
+            <input type="text" name="Sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail">
+            
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha">
+        </p>
+        <p>
+            Cor favorita <br>
+            <label for="ivermelho">Verde</label>
+            <input type="radio" id="ivermelho" name="cor">
+
+            <label for="iazul">Azul</label>
+            <input type="radio" name="cor" id="iamarelo">
+
+            <label for="ibranco">Branco</label>
+            <input type="radio" name="cor" id="ibranco">
+        </p>
+        <p>
+            Gosto musical:
+            <input type="checkbox" id="itrap" name="itrap">
+            <label for="itrap">Trap</label>
+        </p>
+        <p>Curso:
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="">Desenvolvimento</option>
+                <option value="">Suporte em TI </option>
+                <option value="">Microsoft</option>
+            </select>
+        </p>
+        <p>
+            <label for="imensagem">Mensagem</label>
+            <textarea name="" id=""></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+
+</html>

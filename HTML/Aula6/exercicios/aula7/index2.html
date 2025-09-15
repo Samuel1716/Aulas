@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro no Curso de Informática</h1>
+    <form action="" method="post">
+    Nome Completo:
+    <label for="inome"></label>
+    <input type="text" name="nome" id="inome" placeholder="digite seu nome aqui"required>
+    <p> Idade:
+        <label for="iidade"></label>
+        <input type="number" name="idade" id="iidade" placeholder="digite sua idade aqui" required>
+
+    </p>
+    <p>E-mail
+        <label for="iemail"></label>
+        <input type="email" name="email" id="iemail" placeholder="digite seu e-mail aqui" required>
+    </p>
+    <p> Senha:
+        <label for="isenha"></label>
+        <input type="password" name="senha" id="isenha" placeholder="digite sua senha aqui" required>
+        <!--input, serve para coloca a para de digitação-->
+    </p>
+    <p>
+        Turno:
+        <br>
+        <input type="radio" name="manhã" id="imanhã">
+        <label for="imanhã">Manhã</label>
+    
+        <input type="radio" name="tarde" id="itarde">
+        <label for="itarde">Tarde</label>
+
+        <input type="radio" name="inoite" id="inoite">
+        <label for="inoite">Noite</label>
+    </p>
+    <p>Interesses:</p>
+    <input type="checkbox" name="cor" id="iprogramação">
+    <label for="iprogramação">Programação</label>
+
+    <input type="checkbox" name="cor" id="iprogramaçao">
+    <label for="iprogramaçao">Desing</label><!--esse input foi para o candidato colocar o curso-->
+
+    <input type="checkbox" name="cor" id="iprogramaçao">
+    <label for="iprogramaçao">Games</label>
+
+    <input type="checkbox" name="cor" id="iredes">
+    <label for="iredes">Redes</label>
+    <p>Cidade
+        <select name="icidade" id="cidade">
+            <option value="">Selecione</option>
+            <option value="">São Paulo</option>
+            <option value="">Belorizonte</option>
+            <option value="">Rio de janeiro</option>
+            <!--option value, foi para colocar as opções pro candidato selecionar o estado-->
+        </select>
+    </p>
+    <p>
+        <label for="imensagem">Mensagem</label><br>
+       <textarea name="" id="" cols="30" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+    </p>
+    <P>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </P>
+    </form>
+</body>
+</html>
